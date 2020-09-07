@@ -4,17 +4,21 @@
 [![Gem Version](https://img.shields.io/gem/v/fauna.svg?maxAge=21600)](https://rubygems.org/gems/fauna)
 [![License](https://img.shields.io/badge/license-MPL_2.0-blue.svg?maxAge=2592000)](https://raw.githubusercontent.com/fauna/faunadb-ruby/master/LICENSE)
 
-Ruby driver for [FaunaDB](https://fauna.com).
+Ruby driver for [FaunaDB](https://fauna.com) forked from 
+- https://github.com/igas/faunadb-ruby/tree/patch-1 (updates faraday and json gem dependencies)
+- https://github.com/fauna/faunadb-ruby
+
+Renamed as `yax-fauna`.
 
 ## Installation
 
 The FaunaDB ruby driver is distributed as a gem. Install it via:
 
-    $ gem install fauna
+    $ gem install yax-fauna
 
 Or if you use Bundler, add it to your application's `Gemfile`:
 
-    gem 'fauna'
+    gem 'yax-fauna'
 
 And then execute:
 
