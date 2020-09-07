@@ -2,13 +2,13 @@
 require './lib/fauna/version'
 
 Gem::Specification.new do |s|
-  s.name = 'fauna'
+  s.name = 'yax-fauna'
   s.version = Fauna::VERSION.dup
-  s.author = 'Fauna, Inc.'
-  s.email = 'priority@fauna.com'
+  s.author = 'Forked from Fauna, Inc.'
+  s.email = 'daniel@danielkehoe.com'
   s.summary = 'FaunaDB Ruby driver'
   s.description = 'Ruby driver for FaunaDB.'
-  s.homepage = 'https://github.com/fauna/faunadb-ruby'
+  s.homepage = 'https://github.com/yaxdotcom/yax-faunadb-ruby'
   s.license = 'MPL-2.0'
 
   s.files = %w(CHANGELOG Gemfile LICENSE README.md Rakefile fauna.gemspec lib/fauna.rb) + Dir.glob('lib/fauna/**') + Dir.glob('spec/**')
